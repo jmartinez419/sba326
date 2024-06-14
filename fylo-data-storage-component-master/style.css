@@ -53,3 +53,9 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+#slider_container{
+    background-color: hsl(228, 56%, 26%);
+    margin-top: 10px;
+}
+
