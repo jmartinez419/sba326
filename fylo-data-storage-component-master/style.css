@@ -1,0 +1,55 @@
+body{
+    background-image: url(images/bg-mobile.png);
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#logo_container{
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 5%;
+    border-top-right-radius: 40%;
+    width: 250px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo_container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    
+}
+
+#button{
+    margin-top: 15px;
+    width: 70%;
+    justify-content: space-evenly;
+
+}
+
+#document{
+    padding: 4px;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+}
+
+#upload{
+    padding: 4px;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+}
+
+#folder{
+    padding: 4px;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+}
