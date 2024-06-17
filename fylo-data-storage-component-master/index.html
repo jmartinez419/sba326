@@ -9,13 +9,18 @@
   <title>Frontend Mentor | Fylo data storage component</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body class = "background" >
 
-  <div id = "logo_container2">
-<div class = "d-flex flex-column" id = "logo_container">
+
+<div id = "main_container">
+ <div id = "logo_container2">
+   <div class = "d-flex flex-column" id = "logo_container">
   
-  <div><img src="images/logo.svg" alt=""></div>
+   <div><img src="images/logo.svg" alt=""></div>
   <div class = "d-flex" id = "button">
     <div id = "document"><img src="images/icon-document.svg" alt=""></div>
     <div id = "folder"><img src="images/icon-folder.svg"></div>
@@ -25,26 +30,41 @@
 
 </div>
 
-<div>
- <div class = "d-flex flex-column" id = "slider_container">
-  <div id = "storage_usage">You’ve used 815 GB of your storage</div>
-  
-  <div class = "d-flex flex-row" id = "base_bar">
-    <div id = "bar_fill"></div>
-    <div id = "circle"></div>
- </div>
 
-  <div id = "overall_storage">0 GB
-   1000 GB
+
+ <div class = "d-flex flex-column" id = "slider_container">
+
+  <div class = "order-sm-1" id = "storage_usage"><p>You’ve used <b>815 GB</b> of your storage</p></div>
+  
+  <div class = "d-flex flex-row order-sm-2" id = "base_bar">
+    <div id = "bar_fill" class = "d-flex flex-row">
+    <div id = "circle" class = "d-flex flex-row"></div>
+    </div>
   </div>
- </div>
+
+  <div class = "order-sm-3" id = "overall_storage">
+   <p>0 GB</p>
+   <p>1000 GB</p>
+  </div>
+
+  
+
+  <div class = "d-flex flex-row order-sm-0" id = "gbleft_container">
+    <div id = "gbleft" class = "d-flex flex-row">
+    <p id = "gb">185 GB</p><p id = "left">Left</p>
+    <div id = "triangle"></div>
+    </div>
+  </div>
+
 </div>
 
-  <!-- 185 GB Left -->
+
+
+  
   
   <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>. -->
-  </div>
+
 </body>
 </html>

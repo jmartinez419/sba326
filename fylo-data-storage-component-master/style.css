@@ -51,11 +51,119 @@ body{
     background-color: hsl(229, 57%, 11%);
     border-radius: 4px;
     justify-content: center;
+    
+}
+
+#main_container{
+    display: flex;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 #slider_container{
     background-color: hsl(228, 56%, 26%);
     margin-top: 10px;
+    width: 250px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    max-height: 100px;
+    
 }
 
+
+#storage_usage{
+    display: flex;
+    color: white;
+    justify-content: center;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Raleway";
+    font-size: 14px;
+}
+
+#overall_storage{
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+    color: white;
+    padding: 3%;
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 14px;
+}
+
+#base_bar{
+    width: 245px;
+    height: 13px;
+    margin-left: 3px;
+    gap:30px;
+    border-radius: 10px;
+    background: #0C122C;
+}
+
+#bar_fill{
+    width: 200px;
+    height: 10px;
+    justify-content: end;
+    align-items: center;
+    border-radius: 10px;
+    background: #FFA399;
+}
+
+#circle{
+    width:10px;
+    height:10px;
+    border-radius: 100px;
+    background: white;
+
+}
+
+#gbleft_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px;
+    margin-left: -20px;
+    
+}
+
+#gbleft{
+    width: 120px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: white;
+    font-family: "Raleway";
+}
+
+#gb{
+    font-weight: 700;
+    font-family: "Raleway";
+}
+
+#left{
+   font-size: 12px;
+   font-weight: 700;
+   font-family: "Raleway";
+}
+
+@media (min-width : 376px){
+    #main_container{
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        gap: 2%;
+    }
+
+    #gbleft_container{
+        display: flex;
+        justify-content: end;
+       
+    }
+
+}
